@@ -1,5 +1,6 @@
 'use strict';
-require('@doctormckay/stats-reporter').setup(require('./package.json'));
+// Disable stats-reporter because Electron browser can't execute it
+// require('@doctormckay/stats-reporter').setup(require('./package.json'));
 
 const Crypto = require('crypto');
 
